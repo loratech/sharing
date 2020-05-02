@@ -46,7 +46,6 @@ module.exports = {
   themeConfig: {
     smoothScroll: true,
     paginationComponent: 'SimplePagination',
-    pwa: true,
     feed: {
       canonical_base: 'https://sharing.loratech.org',
     },
