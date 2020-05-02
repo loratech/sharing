@@ -56,8 +56,8 @@ module.exports = {
         link: "/tag/",
       },
       {
-        text: "Admin",
-        link: "/admin/",
+        text: "Login",
+        link: "/login/",
       },
     ],
     /**
