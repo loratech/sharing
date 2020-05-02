@@ -14,7 +14,12 @@ module.exports = {
   ],
   plugins: [
     '@vuepress/active-header-links',
-    "@vuepress/medium-zoom",
+    [
+      "@vuepress/medium-zoom",
+      {
+        selector: ".content__default img",
+      }
+    ],
     "@vuepress/last-updated",
     "@vuepress/back-to-top",
     "@vuepress/nprogress",
