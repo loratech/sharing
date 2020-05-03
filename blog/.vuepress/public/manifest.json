@@ -2,6 +2,8 @@
     "name": "L.O.R.A",
     "short_name": "L.O.R.A",
     "start_url": "/",
+    "lang": "en-US",
+    "description": "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
     "orientation": "portrait",
     "icons": [{
         "src": "/android-chrome-192x192.png",
