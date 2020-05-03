@@ -3,9 +3,43 @@ module.exports = {
   description: "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
   theme: "@vuepress/theme-blog",
   head: [
-    ['link', { rel: 'icon', href: '/android-chrome-512x512.png' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['link', {
+      rel: 'icon',
+      href: '/android-chrome-512x512.png'
+    }],
+    ['link', {
+      rel: 'manifest',
+      href: '/manifest.json'
+    }],
+    ['meta', {
+      name: 'theme-color',
+      content: '#4607f2'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-capable',
+      content: 'yes'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-status-bar-style',
+      content: 'black'
+    }],
+    ['link', {
+      rel: 'apple-touch-icon',
+      href: '/apple-touch-icon.png'
+    }],
+    ['link', {
+      rel: 'mask-icon',
+      href: '/favicon.ico',
+      color: '#4607f2'
+    }],
+    ['meta', {
+      name: 'msapplication-TileImage',
+      content: '/android-chrome-512x512.png'
+    }],
+    ['meta', {
+      name: 'msapplication-TileColor',
+      content: '#4607f2'
+    }]
   ],
   plugins: [
     '@vuepress/active-header-links',
@@ -30,6 +64,38 @@ module.exports = {
         searchMaxSuggestions: 12
       }
     ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'tip',
+        defaultTitle: {
+          '/': 'TIP',
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'warning',
+        defaultTitle: {
+          '/': 'WARNING',
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'danger',
+        defaultTitle: {
+          '/': 'DANGER',
+        },
+      },
+    ],
+    ['vuepress-plugin-container', {
+      type: 'details',
+      before: info => `<details class="custom-block details">${info ? `<summary>${info}</summary>` : ''}\n`,
+      after: () => '</details>\n'
+    }],
   ],
   themeConfig: {
     smoothScroll: true,
@@ -65,10 +131,6 @@ module.exports = {
         text: "Tags",
         link: "/tag/",
       },
-      {
-        text: "Login",
-        link: "/login/",
-      },
     ],
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
@@ -92,14 +154,9 @@ module.exports = {
         },
       ],
       copyright: [{
-          text: "Terms & Conditions",
-          link: "/terms-and-conditions",
-        },
-        {
-          text: "L.O.R.A © 2020. All rights reserved.",
-          link: "",
-        },
-      ],
+        text: "L.O.R.A © 2020. All rights reserved.",
+        link: "",
+      }, ],
     },
   },
 };
