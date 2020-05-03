@@ -39,7 +39,13 @@ module.exports = {
     ['meta', {
       name: 'msapplication-TileColor',
       content: '#4607f2'
-    }]
+    }],
+    [
+      'script',
+      {
+        src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
+      }
+    ],
   ],
   plugins: [
     '@vuepress/active-header-links',
