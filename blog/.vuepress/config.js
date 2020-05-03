@@ -1,59 +1,95 @@
 module.exports = {
   title: "L.O.R.A Sharing Hub",
-  description: "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
+  description:
+    "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
   theme: "@vuepress/theme-blog",
+  evergreen: true,
   head: [
-    ['link', {
-      rel: 'icon',
-      href: '/android-chrome-512x512.png'
-    }],
-    ['link', {
-      rel: 'manifest',
-      href: '/manifest.json'
-    }],
-    ['meta', {
-      name: 'theme-color',
-      content: '#4607f2'
-    }],
-    ['meta', {
-      name: 'apple-mobile-web-app-capable',
-      content: 'yes'
-    }],
-    ['meta', {
-      name: 'apple-mobile-web-app-status-bar-style',
-      content: 'black'
-    }],
-    ['link', {
-      rel: 'apple-touch-icon',
-      href: '/apple-touch-icon.png'
-    }],
-    ['link', {
-      rel: 'mask-icon',
-      href: '/favicon.ico',
-      color: '#4607f2'
-    }],
-    ['meta', {
-      name: 'msapplication-TileImage',
-      content: '/android-chrome-512x512.png'
-    }],
-    ['meta', {
-      name: 'msapplication-TileColor',
-      content: '#4607f2'
-    }],
     [
-      'script',
+      "link",
       {
-        src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
-      }
+        rel: "icon",
+        href: "/android-chrome-512x512.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "manifest",
+        href: "/manifest.json",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        href: "/apple-touch-icon.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "mask-icon",
+        href: "/favicon.ico",
+        color: "#4607f2",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "theme-color",
+        content: "#4607f2",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "apple-mobile-web-app-capable",
+        content: "yes",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "apple-mobile-web-app-status-bar-style",
+        content: "black",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "msapplication-TileImage",
+        content: "/android-chrome-512x512.png",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "msapplication-TileColor",
+        content: "#4607f2",
+      },
+    ],
+    [
+      "script",
+      {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
+      },
     ],
   ],
   plugins: [
-    '@vuepress/active-header-links',
+    "@vuepress/active-header-links",
     [
       "@vuepress/medium-zoom",
       {
         selector: ".content__default img",
-      }
+      },
     ],
     "@vuepress/last-updated",
     "@vuepress/back-to-top",
@@ -65,60 +101,66 @@ module.exports = {
       },
     ],
     [
-      '@vuepress/search',
+      "@vuepress/search",
       {
-        searchMaxSuggestions: 12
-      }
+        searchMaxSuggestions: 12,
+      },
     ],
     [
-      'vuepress-plugin-container',
+      "vuepress-plugin-container",
       {
-        type: 'tip',
+        type: "tip",
         defaultTitle: {
-          '/': 'TIP',
+          "/": "TIP",
         },
       },
     ],
     [
-      'vuepress-plugin-container',
+      "vuepress-plugin-container",
       {
-        type: 'warning',
+        type: "warning",
         defaultTitle: {
-          '/': 'WARNING',
+          "/": "WARNING",
         },
       },
     ],
     [
-      'vuepress-plugin-container',
+      "vuepress-plugin-container",
       {
-        type: 'danger',
+        type: "danger",
         defaultTitle: {
-          '/': 'DANGER',
+          "/": "DANGER",
         },
       },
     ],
-    ['vuepress-plugin-container', {
-      type: 'details',
-      before: info => `<details class="custom-block details">${info ? `<summary>${info}</summary>` : ''}\n`,
-      after: () => '</details>\n'
-    }],
+    [
+      "vuepress-plugin-container",
+      {
+        type: "details",
+        before: (info) =>
+          `<details class="custom-block details">${
+            info ? `<summary>${info}</summary>` : ""
+          }\n`,
+        after: () => "</details>\n",
+      },
+    ],
   ],
   themeConfig: {
     smoothScroll: true,
     pwa: true,
-    paginationComponent: 'SimplePagination',
+    paginationComponent: "SimplePagination",
     feed: {
-      canonical_base: 'https://sharing.loratech.org',
+      canonical_base: "https://sharing.loratech.org",
     },
     comment: {
-      service: 'disqus',
-      shortname: "mechafoss"
+      service: "disqus",
+      shortname: "mechafoss",
     },
     sitemap: {
-      hostname: 'https://sharingloratech.netlify.app'
+      hostname: "https://sharingloratech.netlify.app",
     },
     globalPagination: {
-      lengthPerPage: '20',
+      lengthPerPage: "20",
     },
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
@@ -129,7 +171,8 @@ module.exports = {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#nav
      */
-    nav: [{
+    nav: [
+      {
         text: "About",
         link: "/about/",
       },
@@ -142,7 +185,8 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
      */
     footer: {
-      contact: [{
+      contact: [
+        {
           type: "facebook",
           link: "https://fb.com/loratech",
         },
@@ -159,10 +203,12 @@ module.exports = {
           link: "https://youtube.com/loratech",
         },
       ],
-      copyright: [{
-        text: "L.O.R.A © 2020. All rights reserved.",
-        link: "",
-      }, ],
+      copyright: [
+        {
+          text: "L.O.R.A © 2020. All rights reserved.",
+          link: "",
+        },
+      ],
     },
   },
 };
