@@ -1,5 +1,6 @@
 ---
 title: About
+description: About of L.O.R.A Sharing Hub
 ---
 
 ## About

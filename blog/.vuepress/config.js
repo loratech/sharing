@@ -1,8 +1,6 @@
 module.exports = {
   title: "L.O.R.A Sharing Hub",
-  description:
-    "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
-  theme: "@vuepress/theme-blog",
+  description: "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
   evergreen: true,
   head: [
     [
@@ -44,13 +42,6 @@ module.exports = {
     [
       "meta",
       {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1.0",
-      },
-    ],
-    [
-      "meta",
-      {
         name: "apple-mobile-web-app-capable",
         content: "yes",
       },
@@ -83,6 +74,7 @@ module.exports = {
       },
     ],
   ],
+  theme: "@vuepress/theme-blog",
   plugins: [
     "@vuepress/active-header-links",
     [
@@ -171,8 +163,7 @@ module.exports = {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#nav
      */
-    nav: [
-      {
+    nav: [{
         text: "About",
         link: "/about/",
       },
@@ -185,8 +176,7 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
      */
     footer: {
-      contact: [
-        {
+      contact: [{
           type: "facebook",
           link: "https://fb.com/loratech",
         },
@@ -203,12 +193,10 @@ module.exports = {
           link: "https://youtube.com/loratech",
         },
       ],
-      copyright: [
-        {
-          text: "L.O.R.A © 2020. All rights reserved.",
-          link: "",
-        },
-      ],
+      copyright: [{
+        text: "L.O.R.A © 2020. All rights reserved.",
+        link: "",
+      }, ],
     },
   },
 };
