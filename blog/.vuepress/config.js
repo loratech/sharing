@@ -25,14 +25,6 @@ module.exports = {
       },
     ],
     [
-      "link",
-      {
-        rel: "mask-icon",
-        href: "/favicon.ico",
-        color: "#4607f2",
-      },
-    ],
-    [
       "meta",
       {
         name: "theme-color",
@@ -51,20 +43,6 @@ module.exports = {
       {
         name: "apple-mobile-web-app-status-bar-style",
         content: "black",
-      },
-    ],
-    [
-      "meta",
-      {
-        name: "msapplication-TileImage",
-        content: "/android-chrome-512x512.png",
-      },
-    ],
-    [
-      "meta",
-      {
-        name: "msapplication-TileColor",
-        content: "#4607f2",
       },
     ],
     [
@@ -195,7 +173,7 @@ module.exports = {
       ],
       copyright: [{
         text: "L.O.R.A © 2020. All rights reserved.",
-        link: "",
+        link: "https://loratech.org",
       }, ],
     },
   },
