@@ -3,8 +3,8 @@ title: Placeholder Text
 date: 2019-03-09
 author: L.O.R.A
 tags:
-    placeholder
-    text
+  - placeholder
+  - text
 ---
 
 Lorem est tota propiore conpellat pectoribus de pectora summo.
