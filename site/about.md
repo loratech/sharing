@@ -22,7 +22,7 @@ This website has a few built-in useful features, namely
 - Code Syntax Highlighting
 - Tip, Warning, Danger and Details blocks
 - [Medium](https://medium.com) Style Image Zooming
-- [Disqus](https://disqus.com) Commenting (only show in posts)
+- [Disqus](https://disqus.com) Commenting
 
 This is the code syntax highlighting block. You can also specify the programming language.
 
