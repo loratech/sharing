@@ -180,7 +180,7 @@ Now you see me :D :tada:
 
 This is a medium style zooming. Click the image below to zoom.
 
-![img](/favicon-16x16.png)
+![img](/apple-touch-icon.png)
 
 ### So, Who can join?
 
