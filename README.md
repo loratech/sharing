@@ -1,6 +1,6 @@
 ## L.O.R.A Sharing
 
-You can write your post in [`site/blog/`](https://github.com/loratech/sharing.loratech.org/site/blog) directory in markdown and put any images you want to put in your post.
+You can write your post in [`site/blog/`](https://github.com/loratech/sharing.loratech.org/tree/master/site/blog) directory in markdown and put any images you want to put in your post.
 
 **NOTE!**
 
