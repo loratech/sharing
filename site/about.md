@@ -1,17 +1,21 @@
 ---
 title: About
-description: About of L.O.R.A Sharing Hub
+description: About Page of L.O.R.A Sharing Hub
+permalink: /:slug
+date: "2020-05-06"
+author: "L.O.R.A"
+tags:
+  - Contribution
+  - Sharing
 ---
-
-## About
 
 This website is a curated place for sharing the domain knowledge, reproducible tutorials between L.O.R.A members, university students and the rest of the world.
 
-### Pre-requiresities
+## Pre-requiresities
 
-In order to structure the post properly, you must be familiar with basic [markdown](https://markdownguide.org) writing styles.
+In order to structure the post properly, you must be familiar with basic [markdown](https://guides.github.com/features/mastering-markdown/) writing styles.
 
-### Features
+## Features
 
 This website has a few built-in useful features, namely
 

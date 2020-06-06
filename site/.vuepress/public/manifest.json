@@ -1,20 +1,17 @@
 {
     "name": "L.O.R.A",
     "short_name": "L.O.R.A",
-    "start_url": "/",
-    "lang": "en-US",
-    "description": "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
-    "orientation": "portrait",
+    "start_url": ".",
     "icons": [{
         "src": "/android-chrome-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
     }, {
-        "src": "/android-chrome-512x512.png",
+        "src": "/logo.png",
         "sizes": "512x512",
         "type": "image/png"
     }],
-    "theme_color": "#4607f2",
+    "theme_color": "#f7df1e",
     "background_color": "#ffffff",
     "display": "standalone"
 }
