@@ -13,7 +13,7 @@ tags:
 
 ![venvs img](./venvs.svg)
 
-Almost every begineer after diving into python has faced which python virtual environment tool for their python projects. I am also one of them. I didn't know which one to use for my specific projects as one might do well in one kind of project, another one might do well in another kind of project. Some tools are for creating python virtual environments only while some do project scaffolding and creating python virtual environments also. So, I have tried a few of them, have searched and read a few of them namely –
+Almost every begineer after diving into python has faced which python virtual environment tool to use for their python projects. I am also one of them. I didn't know which one to use for my specific projects as one might do well in one kind of project, another one might do well in another kind of project. Some tools are for creating python virtual environments only while some do project scaffolding and creating python virtual environments also. So, I have tried a few of them, have searched and read a few of them namely –
 
 - venv
 - conda
