@@ -233,3 +233,5 @@ OK. That's all the git commands I know.
 Want to learn like a kid? Go ahead to [https://learngitbranching.js.org/](https://learngitbranching.js.org/).
 
 Happy Gitting :tada:
+
+Btw, LMK if I am wrong in somewhere
