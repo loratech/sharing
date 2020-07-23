@@ -1,6 +1,6 @@
 ## L.O.R.A Sharing
 
-You can write your post in [`site/blog/`](https://github.com/loratech/sharing.loratech.org/tree/master/site/blog) directory in markdown and put any images you want to put in your post.
+You can create a folder in [`site/blog/`](https://github.com/loratech/sharing.loratech.org/tree/master/site/blog) with your blog post's name and write your post in that folder in markdown and put any images in that folder you want to put in your post.
 
 **NOTE!**
 
@@ -8,7 +8,7 @@ You can write your post in [`site/blog/`](https://github.com/loratech/sharing.lo
 
 At the top of your post, make sure to include the following frontmatters.
 
-```c
+```js
 ---
 title: Your Post Name
 description: Your Post Description
@@ -25,7 +25,7 @@ tags: // any tags related to your post
 
 After that, you can write your post freely.
 
-You can put your images in your post by using `./image.png` if your images are in `blog` directory.
+You can put your images in your post by using `./image.png` if your images are in `your_post_name` directory.
 
 Happy Sharing!
 
