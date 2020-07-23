@@ -51,7 +51,9 @@ For example, `git add demo.py` for adding each file, or `git add .` for all file
 
 ### Output
 
-<!-- ![git add](./git-add.png) -->
+![git add](./git-add.png)
+
+It shows nothing for successfully adding. You can use `git status` to see what's being added. `gs` is my alias to `git status`.
 
 ## 4. `git commit`
 
@@ -64,7 +66,7 @@ For example, `git commit -m 'added post of git commands'`
 
 ### Output
 
-<!-- ![git commit](./git-commit.png) -->
+![git commit](./git-commit.png)
 
 ## 5. `git push`
 
@@ -77,19 +79,19 @@ For example, `git push origin master` for `master` branch, `git push origin git-
 
 ### Output
 
-<!-- ![git push](./git-push.png) -->
+![git push](./git-push.png)
 
 ## 6. `git fetch`
 
 `git fetch` ကတော့ `git pull` အတိုင်းပါပဲ။ But, သူက changes တွေကို download ဆွဲရုံပါပဲ။ file တွေကို update မလုပ်ပေးပါဘူး။
 
 :::tip Usage
-Just `git fetch`, for simple fetching.
+Just `git fetch`, for simple fetching. Or `git fetch url` for fetching from remote repo.
 :::
 
 ### Output
 
-<!-- ![git fetch](./git-fetch.png) -->
+![git fetch](./git-fetch.png)
 
 ## 7. `git merge`
 
@@ -102,16 +104,16 @@ For example, `git merge master` means I will merge the **changes happened in mas
 
 ### Output
 
-<!-- ![git merge](./git-merge.png) -->
+![git merge](./git-merge.png)
 
-**Before**
+### Before
 
 ```sh
 |---A---B---C---D---master
          \----your-branch
 ```
 
-**After**
+### After
 
 ```sh
 |---A---B---C---D---master---master
@@ -135,7 +137,7 @@ Just `git pull`.
 
 ### Output
 
-<!-- ![git pull](./git-pull.png) -->
+![git pull](./git-pull.png)
 
 ## 9. `git status`
 
@@ -148,6 +150,10 @@ Just `git status` for simple usage.
 ### Output
 
 ![git status](./git-status.png)
+
+:::tip
+Use `git status` whenever you don't know what to do next. I always do that :D
+:::
 
 ## 10. `git branch`
 
@@ -183,6 +189,8 @@ For example, `git checkout -b git-commands`
 
 ### Output
 
+You can see the branch changes from `master` to `git-commands`. Use [Starship](https://starship.rs/) theme to get the output like in the SS.
+
 ![git checkout b](./git-checkout-b.png)
 
 ## 12. `git rebase`
@@ -192,12 +200,13 @@ For example, `git checkout -b git-commands`
 :::tip Usage
 `git rebase branch_name`
 For example, `git rebase origin/master` means it will rebase the changes happened in master into your branch.
+
 Fun fact, many refer you are time travelling if you can rebase :D
 :::
 
 This is how `rebase` works to my knowledge.
 
-**Before**
+### Before
 
 Let's say you are working on `your-branch` for quite some time. And, there are also some updates / changes happened to `master` branch. When you are ready to merge your changes into master, there are conflicts between `your-branch` and `master` branch. A conflict can occur when your working files are updated / changed in the branch you wish to merge in. In this case, that is `master` branch.
 
@@ -206,7 +215,7 @@ Let's say you are working on `your-branch` for quite some time. And, there are a
              \----your-branch
 ```
 
-**After**
+### After
 
 ```sh
 |---A---B---C---D---master
@@ -219,8 +228,8 @@ Now `your-branch` has history commits like `D` and `master` in other words, you 
 Since `git rebase` rewrites history, be careful when using.
 :::
 
-OK. That's all the git commands I know about. Want to learn like a kid?
+OK. That's all the git commands I know.
 
-Go ahead to [https://learngitbranching.js.org/](https://learngitbranching.js.org/).
+Want to learn like a kid? Go ahead to [https://learngitbranching.js.org/](https://learngitbranching.js.org/).
 
 Happy Gitting :tada:
