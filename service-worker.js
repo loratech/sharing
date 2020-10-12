@@ -27,19 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/06/06/python-venvs/index.html",
-    "revision": "6d25a6cbe8a6f3114fb85e7cf9cd0c82"
+    "revision": "37f0545f1218298aeec41d7b25e1e19d"
   },
   {
     "url": "2020/07/23/git/index.html",
-    "revision": "55219817c86434292b87d38f279b1f49"
+    "revision": "7a084764016ff492f118688e0e5ed129"
   },
   {
     "url": "404.html",
-    "revision": "4bd29e3f6eb05e5410593efc3df23564"
+    "revision": "968479e57e79dcbd63d4462d7cdbba66"
   },
   {
     "url": "about/index.html",
-    "revision": "33f6d9c20514ccf4ca91b5af16e74c58"
+    "revision": "2ebb9d3672c8a48da84d75991474217b"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -146,8 +146,8 @@ self.__precacheManifest = [
     "revision": "6aa741630cbe9bd1653d4119e8fdc2f2"
   },
   {
-    "url": "assets/js/app.994cfb0d.js",
-    "revision": "99c41208f8bc8fb708a5393825267fc8"
+    "url": "assets/js/app.3f8ebf9c.js",
+    "revision": "9e1a9805ff51858784ff2edfe034adaf"
   },
   {
     "url": "error.svg",
@@ -163,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6c2c05e72493a8dccd98c31314ba7d06"
+    "revision": "f3d3f776f82a5d9dddba82d95c4cc282"
   },
   {
     "url": "logo.png",
