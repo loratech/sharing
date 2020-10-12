@@ -2,6 +2,7 @@ module.exports = {
     title: "L.O.R.A Sharing Hub",
     description: "An Organization of Students doing Research and Development in Robotics and Artificial Intelligence",
     evergreen: true,
+    base: '/sharing/',
     dest: 'public',
     head: [
         ['link', {
