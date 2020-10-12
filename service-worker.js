@@ -27,19 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/06/06/python-venvs/index.html",
-    "revision": "c99d96da4ef48effbd75ad284386b181"
+    "revision": "db38f0c8f711c2d1dd1f523d3c162721"
   },
   {
     "url": "2020/07/23/git/index.html",
-    "revision": "10dbdafd0c60f59d7954849271af7349"
+    "revision": "abf119000d1e226c7d26aa646479cd9b"
   },
   {
     "url": "404.html",
-    "revision": "63c15af93f966ea6bb2fecd11e0a3317"
+    "revision": "91fcd95bcb5fde4dfa46d4f4bc9c0a35"
   },
   {
     "url": "about/index.html",
-    "revision": "4dd6e2228c5557027da8c127f063359e"
+    "revision": "d856424f94fd578a29a90f8d621cf4d0"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -50,8 +50,8 @@ self.__precacheManifest = [
     "revision": "14636f0a7e2cae5595bcac5fedc9eec5"
   },
   {
-    "url": "assets/css/0.styles.1d5f6619.css",
-    "revision": "69ac4c711bcaaf75f61f5d8be61253fe"
+    "url": "assets/css/0.styles.735d0a3b.css",
+    "revision": "318dc560e23c7d0ab80af8535e9d3589"
   },
   {
     "url": "assets/img/git-add.c290eabb.png",
@@ -146,8 +146,8 @@ self.__precacheManifest = [
     "revision": "6aa741630cbe9bd1653d4119e8fdc2f2"
   },
   {
-    "url": "assets/js/app.2d74b4c1.js",
-    "revision": "58a96642b3d734bee63b62064efe5682"
+    "url": "assets/js/app.a7bb578a.js",
+    "revision": "113d73604142e66bf0b463db678b4cd5"
   },
   {
     "url": "error.svg",
@@ -163,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "fd529a4595d952a8627017e53943b4fb"
+    "revision": "d9c13e335a841bc800c0860475b134db"
   },
   {
     "url": "logo.png",
