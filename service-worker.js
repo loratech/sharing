@@ -27,19 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/06/06/python-venvs/index.html",
-    "revision": "6567990ce9704cc64bbe2393b62ea724"
+    "revision": "40dffe0dd4695f6c33c02c3854ac353f"
   },
   {
     "url": "2020/07/23/git/index.html",
-    "revision": "c26013bde68fc93d4d79f0b08cb3fa66"
+    "revision": "e0c6d219facf7630b503766a098c5cf5"
   },
   {
     "url": "404.html",
-    "revision": "580dacb893422dc3ca4ae2a8696eb984"
+    "revision": "a0e7f366642e05c8339c22f20ddd8c1c"
   },
   {
     "url": "about/index.html",
-    "revision": "77893a1b6f3576f798c7ef0040a193ed"
+    "revision": "924ada9c8357bf22bcbba6ebd7c88471"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -146,8 +146,8 @@ self.__precacheManifest = [
     "revision": "6aa741630cbe9bd1653d4119e8fdc2f2"
   },
   {
-    "url": "assets/js/app.c12957e4.js",
-    "revision": "9ea8d19c92a7bcec2cb0b7616a9c6e74"
+    "url": "assets/js/app.dfc58de2.js",
+    "revision": "a0e5e5b4c1590d27c9a3822914f3cad0"
   },
   {
     "url": "error.svg",
@@ -163,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "331b5445d173b2401b3babd303ec6286"
+    "revision": "54b87ec285e04cf08da5284e53b820d2"
   },
   {
     "url": "logo.png",
