@@ -27,19 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/06/06/python-venvs/index.html",
-    "revision": "893dd5e01241387235f64bbb02899e01"
+    "revision": "4c182819e6435fcb5bd0e6be0e6d5449"
   },
   {
     "url": "2020/07/23/git/index.html",
-    "revision": "925dd856c91d46840995c3cf01050a86"
+    "revision": "2328f200b21f4d779af81d1fd08f1e1d"
   },
   {
     "url": "404.html",
-    "revision": "51e304bb88f0826b856acf3bffd93fef"
+    "revision": "09144c6390a9305b76b5e45c30dd2208"
   },
   {
     "url": "about/index.html",
-    "revision": "e9d469c2f2ddbc53c67b0908f95f20d9"
+    "revision": "87706115f04cbb67cf49540062d9b3c9"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -114,8 +114,8 @@ self.__precacheManifest = [
     "revision": "ca096c6ff7141a97b77e1fa3956717e6"
   },
   {
-    "url": "assets/js/2.0b4da9f0.js",
-    "revision": "fbb13f8bec459d48e37e547f04abb29a"
+    "url": "assets/js/2.2e0151b5.js",
+    "revision": "7a0e491f1c33a2c0ef6e3e9bb3b53291"
   },
   {
     "url": "assets/js/3.940acf34.js",
@@ -130,8 +130,8 @@ self.__precacheManifest = [
     "revision": "f47bca951db1b2a965ffe2fa7773a9b1"
   },
   {
-    "url": "assets/js/6.d009b843.js",
-    "revision": "7b9f23029e5dfe363b0880ef44e6a12e"
+    "url": "assets/js/6.fe3845d9.js",
+    "revision": "9a70381b206b59e803620397e735d1ac"
   },
   {
     "url": "assets/js/7.1b64f762.js",
@@ -142,12 +142,12 @@ self.__precacheManifest = [
     "revision": "e735df07ee5c83c51ececc19168b71e9"
   },
   {
-    "url": "assets/js/9.044fd9f7.js",
-    "revision": "5abe61279f9aad530911d820bebfb0a7"
+    "url": "assets/js/9.16e03978.js",
+    "revision": "6aa741630cbe9bd1653d4119e8fdc2f2"
   },
   {
-    "url": "assets/js/app.c3e58ea8.js",
-    "revision": "cb12541fa3f99c30ea77362b60242e45"
+    "url": "assets/js/app.e645ad9d.js",
+    "revision": "07e17ae987ec07efd669eb1d671fd4aa"
   },
   {
     "url": "error.svg",
@@ -162,8 +162,12 @@ self.__precacheManifest = [
     "revision": "9c9494b25d73d5071658688e09bfa08a"
   },
   {
+    "url": "favicon.png",
+    "revision": "577cb622a2f8d1068f25421e0226fa31"
+  },
+  {
     "url": "index.html",
-    "revision": "b106c7ddb926c2c8101efc81704192bc"
+    "revision": "61a6e70e1b4615ed772eb5659933111a"
   },
   {
     "url": "logo.png",
